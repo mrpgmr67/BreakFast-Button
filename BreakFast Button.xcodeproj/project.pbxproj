@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4137D7B11A05273A008C58F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4137D7B01A05273A008C58F0 /* AppDelegate.swift */; };
+		4137D7B31A05273A008C58F0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4137D7B21A05273A008C58F0 /* GameScene.sks */; };
+		4137D7B51A05273A008C58F0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4137D7B41A05273A008C58F0 /* GameScene.swift */; };
+		4137D7B71A05273A008C58F0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4137D7B61A05273A008C58F0 /* GameViewController.swift */; };
+		4137D7BA1A05273A008C58F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4137D7B81A05273A008C58F0 /* Main.storyboard */; };
+		4137D7BC1A05273A008C58F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4137D7BB1A05273A008C58F0 /* Images.xcassets */; };
+		4137D7BF1A05273A008C58F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4137D7BD1A05273A008C58F0 /* LaunchScreen.xib */; };
+		4137D7CB1A05273A008C58F0 /* BreakFast_ButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4137D7CA1A05273A008C58F0 /* BreakFast_ButtonTests.swift */; };
+		4137D7D61A0527A6008C58F0 /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 4137D7D51A0527A6008C58F0 /* Button.png */; };
+		4137D7D91A05BAC7008C58F0 /* Highway14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4137D7D81A05BAC7008C58F0 /* Highway14.mp3 */; };
+		41EE1C921A05C4CF002D72A1 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EE1C911A05C4CF002D72A1 /* UIColorExtension.swift */; };
+		41EE1C961A05CDEB002D72A1 /* Mountain120.png in Resources */ = {isa = PBXBuildFile; fileRef = 41EE1C931A05CDEB002D72A1 /* Mountain120.png */; };
+		41EE1C971A05CDEB002D72A1 /* Mountain80.png in Resources */ = {isa = PBXBuildFile; fileRef = 41EE1C941A05CDEB002D72A1 /* Mountain80.png */; };
+		41EE1C981A05CDEB002D72A1 /* Mountain58.png in Resources */ = {isa = PBXBuildFile; fileRef = 41EE1C951A05CDEB002D72A1 /* Mountain58.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4137D7C51A05273A008C58F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4137D7A31A05273A008C58F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4137D7AA1A05273A008C58F0;
+			remoteInfo = "BreakFast Button";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4137D7AB1A05273A008C58F0 /* BreakFast Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BreakFast Button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4137D7AF1A05273A008C58F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4137D7B01A05273A008C58F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4137D7B21A05273A008C58F0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		4137D7B41A05273A008C58F0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		4137D7B61A05273A008C58F0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		4137D7B91A05273A008C58F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4137D7BB1A05273A008C58F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4137D7BE1A05273A008C58F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4137D7C41A05273A008C58F0 /* BreakFast ButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BreakFast ButtonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4137D7C91A05273A008C58F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4137D7CA1A05273A008C58F0 /* BreakFast_ButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakFast_ButtonTests.swift; sourceTree = "<group>"; };
+		4137D7D51A0527A6008C58F0 /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
+		4137D7D81A05BAC7008C58F0 /* Highway14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Highway14.mp3; sourceTree = "<group>"; };
+		41EE1C911A05C4CF002D72A1 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		41EE1C931A05CDEB002D72A1 /* Mountain120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mountain120.png; sourceTree = "<group>"; };
+		41EE1C941A05CDEB002D72A1 /* Mountain80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mountain80.png; sourceTree = "<group>"; };
+		41EE1C951A05CDEB002D72A1 /* Mountain58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mountain58.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4137D7A81A05273A008C58F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4137D7C11A05273A008C58F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4137D7A21A05273A008C58F0 = {
+			isa = PBXGroup;
+			children = (
+				4137D7AD1A05273A008C58F0 /* BreakFast Button */,
+				4137D7C71A05273A008C58F0 /* BreakFast ButtonTests */,
+				4137D7AC1A05273A008C58F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4137D7AC1A05273A008C58F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4137D7AB1A05273A008C58F0 /* BreakFast Button.app */,
+				4137D7C41A05273A008C58F0 /* BreakFast ButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4137D7AD1A05273A008C58F0 /* BreakFast Button */ = {
+			isa = PBXGroup;
+			children = (
+				4137D7D71A0527B9008C58F0 /* Sounds */,
+				4137D7D41A052761008C58F0 /* sprites.atlas */,
+				4137D7B01A05273A008C58F0 /* AppDelegate.swift */,
+				4137D7B21A05273A008C58F0 /* GameScene.sks */,
+				4137D7B41A05273A008C58F0 /* GameScene.swift */,
+				4137D7B61A05273A008C58F0 /* GameViewController.swift */,
+				4137D7B81A05273A008C58F0 /* Main.storyboard */,
+				4137D7BB1A05273A008C58F0 /* Images.xcassets */,
+				4137D7BD1A05273A008C58F0 /* LaunchScreen.xib */,
+				4137D7AE1A05273A008C58F0 /* Supporting Files */,
+				41EE1C911A05C4CF002D72A1 /* UIColorExtension.swift */,
+			);
+			path = "BreakFast Button";
+			sourceTree = "<group>";
+		};
+		4137D7AE1A05273A008C58F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4137D7AF1A05273A008C58F0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4137D7C71A05273A008C58F0 /* BreakFast ButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				4137D7CA1A05273A008C58F0 /* BreakFast_ButtonTests.swift */,
+				4137D7C81A05273A008C58F0 /* Supporting Files */,
+			);
+			path = "BreakFast ButtonTests";
+			sourceTree = "<group>";
+		};
+		4137D7C81A05273A008C58F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4137D7C91A05273A008C58F0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4137D7D41A052761008C58F0 /* sprites.atlas */ = {
+			isa = PBXGroup;
+			children = (
+				41EE1C931A05CDEB002D72A1 /* Mountain120.png */,
+				41EE1C941A05CDEB002D72A1 /* Mountain80.png */,
+				41EE1C951A05CDEB002D72A1 /* Mountain58.png */,
+				4137D7D51A0527A6008C58F0 /* Button.png */,
+			);
+			name = sprites.atlas;
+			sourceTree = "<group>";
+		};
+		4137D7D71A0527B9008C58F0 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4137D7D81A05BAC7008C58F0 /* Highway14.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4137D7AA1A05273A008C58F0 /* BreakFast Button */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4137D7CE1A05273A008C58F0 /* Build configuration list for PBXNativeTarget "BreakFast Button" */;
+			buildPhases = (
+				4137D7A71A05273A008C58F0 /* Sources */,
+				4137D7A81A05273A008C58F0 /* Frameworks */,
+				4137D7A91A05273A008C58F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BreakFast Button";
+			productName = "BreakFast Button";
+			productReference = 4137D7AB1A05273A008C58F0 /* BreakFast Button.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4137D7C31A05273A008C58F0 /* BreakFast ButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4137D7D11A05273A008C58F0 /* Build configuration list for PBXNativeTarget "BreakFast ButtonTests" */;
+			buildPhases = (
+				4137D7C01A05273A008C58F0 /* Sources */,
+				4137D7C11A05273A008C58F0 /* Frameworks */,
+				4137D7C21A05273A008C58F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4137D7C61A05273A008C58F0 /* PBXTargetDependency */,
+			);
+			name = "BreakFast ButtonTests";
+			productName = "BreakFast ButtonTests";
+			productReference = 4137D7C41A05273A008C58F0 /* BreakFast ButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4137D7A31A05273A008C58F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Michael Pomatto";
+				TargetAttributes = {
+					4137D7AA1A05273A008C58F0 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = AKA22PJE66;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					4137D7C31A05273A008C58F0 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = AKA22PJE66;
+						TestTargetID = 4137D7AA1A05273A008C58F0;
+					};
+				};
+			};
+			buildConfigurationList = 4137D7A61A05273A008C58F0 /* Build configuration list for PBXProject "BreakFast Button" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4137D7A21A05273A008C58F0;
+			productRefGroup = 4137D7AC1A05273A008C58F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4137D7AA1A05273A008C58F0 /* BreakFast Button */,
+				4137D7C31A05273A008C58F0 /* BreakFast ButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4137D7A91A05273A008C58F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4137D7BF1A05273A008C58F0 /* LaunchScreen.xib in Resources */,
+				4137D7D91A05BAC7008C58F0 /* Highway14.mp3 in Resources */,
+				4137D7BC1A05273A008C58F0 /* Images.xcassets in Resources */,
+				4137D7B31A05273A008C58F0 /* GameScene.sks in Resources */,
+				41EE1C971A05CDEB002D72A1 /* Mountain80.png in Resources */,
+				41EE1C981A05CDEB002D72A1 /* Mountain58.png in Resources */,
+				41EE1C961A05CDEB002D72A1 /* Mountain120.png in Resources */,
+				4137D7BA1A05273A008C58F0 /* Main.storyboard in Resources */,
+				4137D7D61A0527A6008C58F0 /* Button.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4137D7C21A05273A008C58F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4137D7A71A05273A008C58F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4137D7B51A05273A008C58F0 /* GameScene.swift in Sources */,
+				4137D7B71A05273A008C58F0 /* GameViewController.swift in Sources */,
+				4137D7B11A05273A008C58F0 /* AppDelegate.swift in Sources */,
+				41EE1C921A05C4CF002D72A1 /* UIColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4137D7C01A05273A008C58F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4137D7CB1A05273A008C58F0 /* BreakFast_ButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4137D7C61A05273A008C58F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4137D7AA1A05273A008C58F0 /* BreakFast Button */;
+			targetProxy = 4137D7C51A05273A008C58F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4137D7B81A05273A008C58F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4137D7B91A05273A008C58F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4137D7BD1A05273A008C58F0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4137D7BE1A05273A008C58F0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4137D7CC1A05273A008C58F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Michael Pomatto (AKA22PJE66)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Michael Pomatto (AKA22PJE66)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "a48005b2-b5f7-4e68-a472-0f8cd6736fb1";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4137D7CD1A05273A008C58F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Michael Pomatto (AKA22PJE66)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Michael Pomatto (AKA22PJE66)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "a48005b2-b5f7-4e68-a472-0f8cd6736fb1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Release;
+		};
+		4137D7CF1A05273A008C58F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Michael Pomatto (AKA22PJE66)";
+				INFOPLIST_FILE = "BreakFast Button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a48005b2-b5f7-4e68-a472-0f8cd6736fb1";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4137D7D01A05273A008C58F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Michael Pomatto (AKA22PJE66)";
+				INFOPLIST_FILE = "BreakFast Button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a48005b2-b5f7-4e68-a472-0f8cd6736fb1";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4137D7D21A05273A008C58F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BreakFast ButtonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreakFast Button.app/BreakFast Button";
+			};
+			name = Debug;
+		};
+		4137D7D31A05273A008C58F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BreakFast ButtonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreakFast Button.app/BreakFast Button";
+			};
+			name = Release;
+		};
+		415596031A1196F60054F005 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Michael Pomatto (AKA22PJE66)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Michael Pomatto (AKA22PJE66)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "a48005b2-b5f7-4e68-a472-0f8cd6736fb1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		415596041A1196F60054F005 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Michael Pomatto (AKA22PJE66)";
+				INFOPLIST_FILE = "BreakFast Button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a48005b2-b5f7-4e68-a472-0f8cd6736fb1";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Distribution;
+		};
+		415596051A1196F60054F005 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BreakFast ButtonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreakFast Button.app/BreakFast Button";
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4137D7A61A05273A008C58F0 /* Build configuration list for PBXProject "BreakFast Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4137D7CC1A05273A008C58F0 /* Debug */,
+				4137D7CD1A05273A008C58F0 /* Release */,
+				415596031A1196F60054F005 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4137D7CE1A05273A008C58F0 /* Build configuration list for PBXNativeTarget "BreakFast Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4137D7CF1A05273A008C58F0 /* Debug */,
+				4137D7D01A05273A008C58F0 /* Release */,
+				415596041A1196F60054F005 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4137D7D11A05273A008C58F0 /* Build configuration list for PBXNativeTarget "BreakFast ButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4137D7D21A05273A008C58F0 /* Debug */,
+				4137D7D31A05273A008C58F0 /* Release */,
+				415596051A1196F60054F005 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4137D7A31A05273A008C58F0 /* Project object */;
+}
