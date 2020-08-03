@@ -3,7 +3,7 @@
 //  BreakFast Button
 //
 //  Created by Michael Pomatto on 11/1/14.
-//  Copyright (c) 2014 Michael Pomatto. All rights reserved.
+//  Copyright (c) 2014-2020 Michael Pomatto. All rights reserved.
 //
 
 import SpriteKit
